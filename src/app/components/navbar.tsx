@@ -25,7 +25,7 @@ export function Navbar() {
         <header
             className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-black/95 py-3 shadow-lg" : "bg-black py-4"}`}
         >
-            <div className="container mx-auto px-4 flex items-center justify-between">
+            <div className="container mx-auto px-4 flex items-center justify-between sticky top-0">
                 <div className="flex items-center gap-2">
                     <Award className="h-6 w-6 text-[#b01108]" />
                     <span className="font-bold text-xl text-white">Ibrahim</span>
