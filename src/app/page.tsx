@@ -15,8 +15,8 @@ import { Award, ImageIcon, Layout, Linkedin, Settings } from "lucide-react";
 
 export default function Home() {
   // Replace with your actual Calendly URL
-  const calendlyUrl =
-    "https://calendly.com/muhammad-ibrahim/linkedin-strategy-call";
+  const Linkdein =
+    "https://www.linkedin.com/in/muhammad-ibrahim-seo-content-writer/";
 
   const services = [
     {
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* Calendly Integration */}
-      <CalendlyEmbed url={calendlyUrl} />
+      <CalendlyEmbed url={Linkdein} />
 
       {/* Call to Action */}
       <section className="bg-black text-white py-20 lg:py-28">

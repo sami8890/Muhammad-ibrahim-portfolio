@@ -39,8 +39,11 @@ export function CalendlyEmbed({ url }: CalendlyEmbedProps) {
                             ))}
                         </ul>
                         <Button
+                        
                             className="bg-[#b01108] hover:bg-[#8a0d06] text-white rounded-full px-8 py-6 flex items-center gap-2 shadow-lg shadow-red-900/20 transition-all hover:scale-105 mt-4"
+                            
                             onClick={handleBookingClick}
+                            
                         >
                             <Calendar className="h-5 w-5 mr-2" />
                             Schedule Now
