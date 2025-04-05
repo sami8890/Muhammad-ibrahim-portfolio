@@ -42,7 +42,7 @@ export function BannerShowcase() {
             id: 4,
             title: "Minimalist LinkedIn Banner",
             description: "Clean, minimalist design for any professional",
-            image: "/banner/fourth.png",
+            image: "/banner/forth.png",
             category: "Minimalist",
         },
         {
